@@ -92,7 +92,7 @@ The regression line and actual vs. predicted plot illustrate that the model is r
 ![image alt](https://github.com/codemisba/COTECH-TASK-2/blob/35f7c127055caff63c6314bbf6f7df1a44545273/task2%20-%20graph1.PNG)
 
 
-
+![image alt](https://github.com/codemisba/COTECH-TASK-2/blob/2da62b96992d0204ea0f3cc9cea4691582dd9b9e/task2%20-%20graph2.PNG)
 
 
 
