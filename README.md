@@ -23,6 +23,7 @@ MENTOR:
 2. Feature Analysis: Examining the relationships and variations in the features to identify important predictors for classifying flower species.
 3. Modeling: Using machine learning algorithms to develop a model that can accurately classify the species based on the given features.
 4. Evaluation: Assessing model performance using metrics like accuracy and confusion matrices to validate the model's effectiveness.
+   
 
 **2. Dataset Description**
 
@@ -34,6 +35,7 @@ MENTOR:
 •	*Petal Width* (cm): Continuous variable representing the width of the petal.
 •	*Species*: Categorical variable representing the species of the iris flower, with values: 'Iris setosa', 'Iris versicolor', and 'Iris virginica'
 
+
 ***Step 1: Set Up the Notebook Environment***
 
 Import all necessary libraries. Comment each import line for clarity.
@@ -43,24 +45,27 @@ pandas: For data manipulation and analysis (loading, cleaning, transforming data
 numpy: For numerical operations and handling arrays.
 matplotlib: For creating static, animated, and interactive visualizations.
 
+
 **Step 2: Load and Explore the Dataset**
 
 Data Loading: Loaded the Iris dataset into a pandas DataFrame from a CSV file.
 To Display the first few rows of the dataset
 The data.head() method allows you to quickly see the structure of the dataset. For this task, we're assuming petal length as the feature and petal width as the target variable.
 
+
 **Step 3: Select Features and Target Variables**
 Identify and isolate the feature (independent variable) and the target (dependent variable) for the linear regression model.
 
-**Step 4: Split the Data into Training and Testing Sets**
 
+**Step 4: Split the Data into Training and Testing Sets**
 Split the data to separate training and testing subsets.
 Training data is used to fit the model, and testing data evaluates its performance.
 
-**Step 5: Train the Linear Regression Model**
 
+**Step 5: Train the Linear Regression Model**
 Create a Linear Regression model instance, then fit it to the training data.
 The .fit() function trains the model using X_train (feature data) and y_train (target data).
+
 
 **Step 6: Make Predictions and Evaluate the Model**
 With the use of LinearRegression model to make predictions on the test data , evaluate its performance using Mean Squared Error (MSE) and R-squared (R²).
@@ -71,6 +76,7 @@ MODELING WITH LINEAR REGRESSION :
 MSE -  measures the average squared difference between predicted and actual values.
 R²  - indicates the proportion of variance in the target variable explained by the model; values closer to 1 imply a better fit.
 
+
 **Step 7: Visualize the Result**
 By plotting the graph for [SIMPLE LINEAR REGRESSION] . This plot helps visualize how well the model has fit the training data.
 
@@ -79,11 +85,21 @@ Test Plot: Green dots represent actual values, while purple dots represent predi
 
 The regression line and actual vs. predicted plot illustrate that the model is reasonably accurate for this linear relationship.
 
+
 ![image alt](https://github.com/codemisba/COTECH-TASK-2/blob/95da50e00836fa3c624aa847d7f8bfb6965b098d/task2%20-%20model.PNG)
+
+
+![image alt](https://github.com/codemisba/COTECH-TASK-2/blob/35f7c127055caff63c6314bbf6f7df1a44545273/task2%20-%20graph1.PNG)
+
+
+
+
+
 
 **INSIGHTS**
 
 The descriptive statistics of the Iris dataset show that sepal length has a mean of 5.8 cm with moderate variability, while petal length has a mean of 3.7 cm and greater variation. Petal width has a mean of 1.3 cm, with a range from 0.1 cm to 2.5 cm, suggesting it plays a key role in distinguishing flower species. Sepal width shows a wider range, with some potential outliers. All features have no missing values, indicating a clean dataset for analysis.
+
 
 **INTERPRETATIONS:**
 
@@ -91,8 +107,10 @@ The descriptive statistics of the Iris dataset show that sepal length has a mean
 2. Error Analysis: Mean Squared Error gives an idea of the average prediction error magnitude.
 3. Visual Assessment: Use the Actual vs. Predicted plot to assess if predictions closely follow actual values.
 
+
 **CONCLUSION**
 The descriptive statistics of the Iris dataset show that sepal length has a mean of 5.8 cm with moderate variability, while petal length has a mean of 3.7 cm and greater variation. Petal width has a mean of 1.3 cm, with a range from 0.1 cm to 2.5 cm, suggesting it plays a key role in distinguishing flower species. Sepal width shows a wider range, with some potential outliers. All features have no missing values, indicating a clean dataset for analysis.
+
 
 ***THIS IS MY PROJECT CREATED BY - SAYEEDA MISBAH ILYAS***
 
