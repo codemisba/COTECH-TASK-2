@@ -45,6 +45,7 @@ plt.scatter(X_test, y_pred, color='purple', label='Predicted values')
 plt.plot(X_test, y_pred, color='red', linewidth=2, label='Regression line')
 plt.xlabel('Petal Length (cm)')
 plt.ylabel('Petal Width (cm)')
+
 plt.title('Actual vs. Predicted Values on Test Data')
 plt.legend()
 plt.show()
