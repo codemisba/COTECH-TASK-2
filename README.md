@@ -79,6 +79,8 @@ Test Plot: Green dots represent actual values, while purple dots represent predi
 
 The regression line and actual vs. predicted plot illustrate that the model is reasonably accurate for this linear relationship.
 
+![image alt](https://github.com/codemisba/COTECH-TASK-2/blob/95da50e00836fa3c624aa847d7f8bfb6965b098d/task2%20-%20model.PNG)
+
 **INSIGHTS**
 
 The descriptive statistics of the Iris dataset show that sepal length has a mean of 5.8 cm with moderate variability, while petal length has a mean of 3.7 cm and greater variation. Petal width has a mean of 1.3 cm, with a range from 0.1 cm to 2.5 cm, suggesting it plays a key role in distinguishing flower species. Sepal width shows a wider range, with some potential outliers. All features have no missing values, indicating a clean dataset for analysis.
